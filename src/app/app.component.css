@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+* {
+  font-family: 'League Spartan';
+  font-weight: 300;
+}
+
 header {
   margin: 3rem auto;
   text-align: center;
