@@ -14,3 +14,8 @@ header {
   border: 1px solid #ffd700;
   border-top: none;
 }
+
+img {
+  width: 3.5rem;
+  object-fit: contain;
+}
