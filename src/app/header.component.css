@@ -33,3 +33,7 @@ p {
   font-size: 0.8rem;
   text-wrap: balance;
 }
+
+@media (min-width: 768px) {
+  
+}
