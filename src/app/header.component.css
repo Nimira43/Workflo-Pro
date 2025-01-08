@@ -19,3 +19,10 @@ img {
   width: 3.5rem;
   object-fit: contain;
 }
+
+h1 {
+  font-family: 'Caveat', cursive;
+  font-size: 1.25rem;
+  margin: 0;
+  padding: 0;
+}
