@@ -23,6 +23,13 @@ img {
 h1 {
   font-family: 'Caveat', cursive;
   font-size: 1.25rem;
+  color: #ffd700;
   margin: 0;
   padding: 0;
+}
+
+p {
+  margin: 0;
+  font-size: 0.8rem;
+  text-wrap: balance;
 }
