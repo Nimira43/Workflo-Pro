@@ -18,6 +18,7 @@ export class UserComponent {
   }
 
   onSelectUser() {
-    console.log('Clicked')
+    const randomIndex = Math.floor(Math.random() * USERS.length)
+    this.selectedUser = USERS[randomIndex]
   }
 }

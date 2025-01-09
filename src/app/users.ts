@@ -21,12 +21,12 @@ export const USERS = [
   },
   {
     id: 'user-5',
-    name: 'Lynton Moss',
+    name: 'Lana Edwards',
     image: 'user-5.jpg',
   },
   {
     id: 'user-6',
-    name: 'Lana Edwards',
+    name: 'Lynton Moss',
     image: 'user-6.jpg',
   },
 ];
