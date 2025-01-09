@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=League+Spartan:wght@100..900&display=swap');
-
 * {
   box-sizing: border-box;
 }
@@ -13,7 +11,7 @@ body {
   font-weight: 300;
   margin: 0;
   padding: 0;
-  background-color: #111;
+  background: #111;
   color: #fffaf0;
   height: 100%;
 }
