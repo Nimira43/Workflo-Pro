@@ -1,0 +1,41 @@
+div {
+  border-radius: 6px;
+  border: 1px solid #ffd700;
+  overflow: hidden;
+}
+
+button {
+  display : flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.35rem 0.5rem;
+  background-color: #012222;
+  color: #fffaf0;
+  border: 1px solid #ffd700;
+  font: inherit;
+  cursor: pointer;
+  width: 100%;
+  min-width: 10rem;
+  text-align: center;
+  transition: all 0.5s ease-in;
+}
+
+button:hover,
+button:active,
+.active {
+  background-color: #ffd700;
+  color: #012222;
+}
+
+img {
+  width: 2rem;
+  object-fit: contain;
+  border-radius: 50%;
+  border: 1px solid #ffd700;
+}
+
+span {
+  margin: 0;
+  padding: 0;
+  font-size: 0.8rem;
+}
