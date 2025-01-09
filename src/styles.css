@@ -3,10 +3,17 @@
 * {
   font-family: 'League Spartan', sans-serif;
   font-weight: 300;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
 }
 
 body {
   margin: 0;
+  padding: 0;
   background-color: #111;
   color: #fffaf0;
+  height: 100%;
 }
