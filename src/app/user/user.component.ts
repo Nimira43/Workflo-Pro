@@ -1,4 +1,4 @@
-import { Component, signal } from '@angular/core'
+import { Component, computed, signal } from '@angular/core'
 import { USERS } from '../users'
 
 const randomIndex = Math.floor(Math.random() * USERS.length)
@@ -11,14 +11,11 @@ const randomIndex = Math.floor(Math.random() * USERS.length)
 })
 
 export class UserComponent {
-  selectedUser = USERS[randomIndex]
-  
-  get imagePath() {
-    return 'assets/users/' + this.selectedUser.image
-  }
+  selectedUser = signal(USERS[randomIndex]) 
+  imagePath = computed(() => 'assets/users/' + this.selectedUser().image)
 
   onSelectUser() {
     const randomIndex = Math.floor(Math.random() * USERS.length)
-    this.selectedUser = USERS[randomIndex]
+    this.selectedUser.set(USERS[randomIndex])  
   }
 }
