@@ -1,4 +1,4 @@
-import { Component } from '@angular/core'
+import { Component, signal } from '@angular/core'
 import { USERS } from '../users'
 
 const randomIndex = Math.floor(Math.random() * USERS.length)
