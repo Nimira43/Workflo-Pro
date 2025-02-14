@@ -8,6 +8,6 @@ import { Component, Input } from '@angular/core'
 })
 
 export class UserComponent {
-  @Input() avatar
+  @Input() avatar: string
   onSelectUser() {}
 }
