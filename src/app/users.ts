@@ -1,4 +1,4 @@
-avatart const USERS = [
+export const USERS = [
   {
     id: 'user-1',
     name: 'Rose Kinley-Stapleton',
