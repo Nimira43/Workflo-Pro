@@ -1,5 +1,4 @@
-import { Component, computed, signal } from '@angular/core'
-import { USERS } from '../users'
+import { Component } from '@angular/core'
 
 @Component({
   selector: 'app-user',
@@ -9,10 +8,5 @@ import { USERS } from '../users'
 })
 
 export class UserComponent {
-  selectedUser = signal(USERS[randomIndex]) 
-  imagePath = computed(() => 'assets/users/' + this.selectedUser().image)
-
-  onSelectUser() {
-    
-  }
+  onSelectUser() {}
 }
