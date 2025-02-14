@@ -8,6 +8,7 @@ import { Component, Input } from '@angular/core'
 })
 
 export class UserComponent {
-  @Input() avatar: string
+  @Input() avatar!: string
+  @Input() name!: string
   onSelectUser() {}
 }
