@@ -14,7 +14,7 @@ import { TasksComponent } from './tasks/tasks.component'
 })
 export class AppComponent {
   users = USERS
-  selectedUserId = 'user-l'
+  selectedUserId = 'user-1'
 
   get selectedUser() {
     return this.users.find((user) => user.id == this.selectedUserId)!

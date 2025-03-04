@@ -1,7 +1,7 @@
 export const USERS = [
   {
     id: 'user-1',
-    name: 'Rose Kinley-Stapleton',
+    name: 'Rose Kinley',
     avatar: 'user-1.jpg',
   },
   {
@@ -16,7 +16,7 @@ export const USERS = [
   },
   {
     id: 'user-4',
-    name: 'Jeremy Wilcox-Thompson',
+    name: 'Jeremy Wilcox',
     avatar: 'user-4.jpg',
   },
   {
@@ -29,4 +29,4 @@ export const USERS = [
     name: 'Lynton Moss',
     avatar: 'user-6.jpg',
   },
-];
+]

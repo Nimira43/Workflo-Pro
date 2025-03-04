@@ -1,6 +1,5 @@
 div {
-  border-radius: 6px;
-  border: 1px solid #ffd700;
+  border-radius: 3px;
   overflow: hidden;
 }
 
@@ -10,8 +9,8 @@ button {
   gap: 0.5rem;
   padding: 0.35rem 0.5rem;
   background-color: #012222;
+  border: 1px solid #ffd700;
   color: #fffcfa;
-  border: none;
   font: inherit;
   cursor: pointer;
   width: 100%;
