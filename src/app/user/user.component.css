@@ -9,21 +9,20 @@ button {
   gap: 0.5rem;
   padding: 0.35rem 0.5rem;
   background-color: #012222;
-  border: 1px solid #ffd700;
+  border: none;
   color: #fffcfa;
   font: inherit;
   cursor: pointer;
   width: 100%;
   min-width: 10rem;
   text-align: right;
-  transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in-out;
 }
 
 button:hover,
 button:active,
 .active {
-  background-color: #ffd700;
-  color: #012222;
+  background-color: #ff4500;
 }
 
 img {
@@ -36,4 +35,6 @@ span {
   margin: 0;
   padding: 0;
   font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }

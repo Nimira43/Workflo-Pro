@@ -11,7 +11,7 @@ header {
   padding: 1rem;
   border-bottom-right-radius: 12px;
   border-bottom-left-radius: 12px;
-  border: 1px solid #ffd700;
+  border: none;
   border-top: none;
 }
 
@@ -23,7 +23,7 @@ img {
 h1 {
   font-family: 'Caveat', cursive;
   font-size: 1.25rem;
-  color: #ffd700;
+  color: #ff4500;
   margin: 0;
   padding: 0;
 }
@@ -42,7 +42,7 @@ p {
     width: 4.5rem;
   }
   h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin: 0;
     padding: 0;
   }
