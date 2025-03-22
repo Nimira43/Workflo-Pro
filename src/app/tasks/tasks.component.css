@@ -1,0 +1,35 @@
+article {
+  padding: 1rem;
+  color: #fffcfa;
+  background-color: #012222;
+}
+
+h2 {
+  margin: 0;
+}
+
+time {
+  color: #ff4500;
+}
+
+.actions {
+  text-align: right;
+  margin: 0;
+}
+
+.actions button {
+  font: inherit;
+  font-size: 0.9rem;
+  cursor: pointer;
+  background-color: #ff4500;
+  color: #fffcfa;
+  border-radius: 4px;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #111;
+}
