@@ -16,5 +16,5 @@ interface Task {
   styleUrl: './task.component.css'
 })
 export class TaskComponent {
-  @Input() task: 
+  @Input({required: true}) task!: Task
 }
