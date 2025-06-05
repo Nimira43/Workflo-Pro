@@ -57,6 +57,10 @@ ul {
   overflow: auto;
 }
 
+ul li {
+  background-color: #111;
+}
+
 @media (min-width: 768px) {
   h2 {
     font-size: 1.25rem;
