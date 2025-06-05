@@ -3,3 +3,36 @@ article {
   color: #fffcfa;
   background-color: #111;
 }
+
+h2 {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+time {
+  font-style: italic;
+}
+
+.actions {
+  text-align: right;
+  margin: 0;
+}
+
+.actions button {
+  font: inherit;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: transparent;
+  color: #fffcfa;
+  border-radius: 3px;
+  border: 1px solid #fffcfa;
+  padding: 0.5rem 1.5rem;
+  transition: all 0.3s ease-in;
+}
+
+.actions button:hover {
+  background-color: #ff4500;
+  border-color: #ff4500;
+  color: #fffcfa
+}
