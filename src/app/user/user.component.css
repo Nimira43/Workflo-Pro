@@ -1,4 +1,5 @@
 div {
+  display: inline-block;
   border-radius: 3px;
   overflow: hidden;
 }
@@ -7,14 +8,14 @@ button {
   display : flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.35rem 0.5rem;
+  padding: 1rem;
   background-color: #012222;
   border: none;
   color: #fffcfa;
   font: inherit;
   cursor: pointer;
   width: 100%;
-  min-width: 10rem;
+  width: 12rem;
   text-align: right;
   transition: all 0.5s ease-in-out;
 }
