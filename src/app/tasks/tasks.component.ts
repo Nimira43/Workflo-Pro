@@ -41,7 +41,12 @@ export class TasksComponent {
       dueDate: '2025-09-22'
     }
   ]
+
   get selectedUserTasks() {
     return this.tasks.filter((task) => task.userId === this.userId)
+  }
+
+  onCompleteTask(id: string) {
+    
   }
 }
