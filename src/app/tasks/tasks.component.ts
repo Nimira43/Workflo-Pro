@@ -11,6 +11,8 @@ import { TaskComponent } from './task/task.component'
 export class TasksComponent {
   @Input({required: true}) userId!: string
   @Input({required: true}) name!: string
+  isAddingTask = false
+
   tasks = [
     {
       id: 't1',
@@ -51,6 +53,6 @@ export class TasksComponent {
   }
 
   onStartAddTask() {
-    
+
   }
 }
