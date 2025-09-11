@@ -22,3 +22,13 @@ h2 {
   margin: 0;
   color: #fffcfa;
 }
+
+label,
+textarea {
+  width: 100%;
+  font: inherit;
+  padding: 0.15rem 0.25rem;
+  border-radius: 3px;
+  border: none;
+  background-color: #111;
+}
