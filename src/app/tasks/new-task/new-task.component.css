@@ -32,3 +32,10 @@ textarea {
   border: none;
   background-color: #111;
 }
+
+.actions {
+  margin: 1rem 0 0;
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.25rem;
+}
