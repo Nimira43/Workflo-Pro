@@ -39,3 +39,19 @@ textarea {
   justify-content: flex-end;
   gap: 0.25rem;
 }
+
+button {
+  font: inherit;
+  cursor: pointer;
+  border: none;
+  padding: 0.35rem 1,25rem;
+  border-radius: 3px;
+  background-color: #ff4500;
+  color: #fffcfa;
+}
+
+@media (min-width: 768) {
+  dialog {
+    padding: 2rem;
+  }
+}
