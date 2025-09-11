@@ -1,0 +1,19 @@
+.backdrop {
+  background-color: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+dialog {
+  width: 90%;
+  max-width: 30rem;
+  background-color: #012222;
+  border-radius: 3px;
+  border: none;
+  overflow: hidden;
+  padding: 1rem;
+  top: 5rem;
+}
