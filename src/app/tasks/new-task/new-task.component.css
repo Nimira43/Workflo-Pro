@@ -27,10 +27,25 @@ label,
 textarea {
   width: 100%;
   font: inherit;
-  padding: 0.15rem 0.25rem;
   border-radius: 3px;
-  border: none;
-  background-color: #111;
+}
+
+label {
+  margin-right: 1rem;
+  color: #fffcfa;
+}
+
+textarea {
+  margin-top: 0.5rem;
+}
+
+input,
+textarea {
+  padding: 0.5rem 1rem;
+  color: #fffcfa;
+  background-color: transparent;
+  border: 1px solid #fffcfa;
+  outline: none;
 }
 
 .actions {
@@ -43,11 +58,18 @@ textarea {
 button {
   font: inherit;
   cursor: pointer;
-  border: none;
-  padding: 0.35rem 1,25rem;
+  border: 1px solid #fffcfa;
+  padding: 0.5rem 1rem;
   border-radius: 3px;
-  background-color: #ff4500;
+  background-color: transparent;
   color: #fffcfa;
+  text-transform: uppercase;
+  transition: all 0.5s ease-in-out;
+}
+
+button:hover {
+  border-color: #ff4500;
+  background-color: #ff4500;
 }
 
 @media (min-width: 768) {
