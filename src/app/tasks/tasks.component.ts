@@ -56,4 +56,8 @@ export class TasksComponent {
   onStartAddTask() {
     this.isAddingTask = true
   }
+
+  onCancelAddTask() {
+    
+  }
 }
