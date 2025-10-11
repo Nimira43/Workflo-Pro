@@ -13,7 +13,7 @@ export class NewTaskComponent {
   @Output() cancel = new EventEmitter<void>()
   enteredTitle = ''
   enteredSummary = ''
-  enteredData = ''
+  enteredDate = ''
   
   onCancel() {
     this.cancel.emit()
