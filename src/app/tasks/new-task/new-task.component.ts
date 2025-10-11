@@ -12,6 +12,8 @@ import { FormsModule } from '@angular/forms'
 export class NewTaskComponent {
   @Output() cancel = new EventEmitter<void>()
   enteredTitle = ''
+  enteredSummary = ''
+  enteredData = ''
   
   onCancel() {
     this.cancel.emit()
