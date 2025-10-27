@@ -25,6 +25,10 @@ export class NewTaskComponent {
   }
 
   onSubmit() {
-
+    this.add.emit({
+      title: this.enteredTitle,
+      summary: this.enteredSummary,
+      date: this.enteredDate
+    })
   }
 }
