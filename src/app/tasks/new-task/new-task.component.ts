@@ -11,6 +11,11 @@ import { FormsModule } from '@angular/forms'
 
 export class NewTaskComponent {
   @Output() cancel = new EventEmitter<void>()
+  @Output() add = new EventEmitter<{
+    title: string
+    summary: string
+    date: string
+  }>()
   enteredTitle = ''
   enteredSummary = ''
   enteredDate = ''
@@ -20,6 +25,6 @@ export class NewTaskComponent {
   }
 
   onSubmit() {
-    
+
   }
 }
