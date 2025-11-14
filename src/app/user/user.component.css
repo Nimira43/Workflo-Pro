@@ -1,5 +1,6 @@
 div {
-  display: inline-block;
+  /* display: inline-block; */
+  border: 1px solid #ffd700;
   border-radius: 3px;
   overflow: hidden;
 }
