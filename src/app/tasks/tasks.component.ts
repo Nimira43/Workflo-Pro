@@ -34,13 +34,7 @@ export class TasksComponent {
   }
 
   onAddTask(taskData: NewTaskData) {
-    this.tasks.unshift({
-      id: new Date().getTime().toString(),
-      userId: this.userId,
-      title: taskData.title,
-      summary: taskData.summary,
-      dueDate: taskData.date,  
-    })
+    
     this.isAddingTask = false
   }
 }

@@ -1,3 +1,5 @@
+import { NewTaskData } from "./task/task.model"
+
 class TasksService {
   private tasks = [
     {
@@ -31,6 +33,16 @@ class TasksService {
   ]
 
   getuserTasks(userId: string) {
-    return this.tasks.filter((task) => task.userId === this.userId)
+    return this.tasks.filter((task) => task.userId === userId)
   } 
+
+  addTask(taskData: NewTaskData, userId: string) {
+    this.tasks.unshift({
+      id: new Date().getTime().toString(),
+      userId: userId,
+      title: taskData.title,
+      summary: taskData.summary,
+      dueDate: taskData.date,  
+    })
+  }
  }
