@@ -1,5 +1,5 @@
 class TasksService {
-  tasks = [
+  private tasks = [
     {
       id: 't1',
       userId: 'user-1',
@@ -29,4 +29,8 @@ class TasksService {
       dueDate: '2025-09-22'
     }
   ]
-}
+
+  getuserTasks(userId: string) {
+    return this.tasks.filter((task) => task.userId === this.userId)
+  } 
+ }
