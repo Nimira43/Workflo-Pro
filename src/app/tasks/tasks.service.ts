@@ -45,4 +45,8 @@ class TasksService {
       dueDate: taskData.date,  
     })
   }
- }
+
+  removeTask(id: string) {
+    this.tasks = this.tasks.filter((task) => task.id !== id)
+  }
+}
