@@ -16,10 +16,14 @@ export class TasksComponent {
   @Input({required: true}) userId!: string
   @Input({required: true}) name!: string
   isAddingTask = false
+  private tasksService: TasksService
 
+  constructor(tasksService: TasksService) {
+    this.tasksService = tasksService
+  }
   
   get selectedUserTasks() {
-    return 
+    return this.tasksService.getuserTasks(this.userId)
   }
 
   onCompleteTask(id: string) {
