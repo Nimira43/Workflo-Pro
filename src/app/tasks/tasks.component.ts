@@ -23,9 +23,7 @@ export class TasksComponent {
     return this.tasksService.getuserTasks(this.userId)
   }
 
-  onCompleteTask(id: string) {
-    
-  }
+  onCompleteTask(id: string) {}
 
   onStartAddTask() {
     this.isAddingTask = true
@@ -36,7 +34,6 @@ export class TasksComponent {
   }
 
   onAddTask(taskData: NewTaskData) {
-    
     this.isAddingTask = false
   }
 }
