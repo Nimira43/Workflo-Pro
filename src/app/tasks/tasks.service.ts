@@ -52,8 +52,9 @@ export class TasksService {
       userId: userId,
       title: taskData.title,
       summary: taskData.summary,
-      dueDate: taskData.date,  
+      dueDate: taskData.date,    
     })
+    this.saveTasks()
   }
 
   removeTask(id: string) {
