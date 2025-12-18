@@ -14,7 +14,6 @@ import { TasksService } from '../tasks.service'
 export class NewTaskComponent {
   @Input({required: true}) userId!: string
   @Output() cancel = new EventEmitter<void>()
-  @Output() add = new EventEmitter<NewTaskData>()
   enteredTitle = ''
   enteredSummary = ''
   enteredDate = ''
