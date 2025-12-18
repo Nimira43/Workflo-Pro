@@ -12,7 +12,7 @@ import { TasksService } from '../tasks.service'
 })
 
 export class NewTaskComponent {
-  @Input({required: true}) userId!
+  @Input({required: true}) userId!: string
   @Output() cancel = new EventEmitter<void>()
   @Output() add = new EventEmitter<NewTaskData>()
   enteredTitle = ''
@@ -29,6 +29,8 @@ export class NewTaskComponent {
       title: this.enteredTitle,
       summary: this.enteredSummary,
       date: this.enteredDate
-    }, '')
+    },
+    this.userId
+    )
   }
 }
