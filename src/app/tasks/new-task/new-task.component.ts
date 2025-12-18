@@ -13,14 +13,14 @@ import { TasksService } from '../tasks.service'
 
 export class NewTaskComponent {
   @Input({required: true}) userId!: string
-  @Output() cancel = new EventEmitter<void>()
+  @Output() close = new EventEmitter<void>()
   enteredTitle = ''
   enteredSummary = ''
   enteredDate = ''
   private tasksService = inject(TasksService)
 
   onCancel() {
-    this.cancel.emit()
+    this.close.emit()
   }
 
   onSubmit() {
@@ -31,5 +31,6 @@ export class NewTaskComponent {
     },
     this.userId
     )
+    this.close.emit()
   }
 }
