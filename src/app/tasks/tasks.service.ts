@@ -34,7 +34,9 @@ export class TasksService {
     }
   ]
 
-  constructor() { }
+  constructor() { 
+    const tasks = localStorage.getItem('tasks')
+  }
 
   getuserTasks(userId: string) {
     return this.tasks.filter((task) => task.userId === userId)
